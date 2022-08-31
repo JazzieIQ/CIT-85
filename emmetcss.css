@@ -1,5 +1,22 @@
 ::first-letter {color: #F00;}
 ::first-line {font-size: 400%;}
+.intro {color: whitesmoke;height: fit-content; border: darkblue;}
+.numbered-list {
+        color: orangered;
+        height: fit-content;
+        border: rgb(0, 139, 42);
+                }
+.links {
+        color: darkblue;
+        height: fit-content;
+        border: darkblue;
+    }
+.summary {
+        color: whitesmoke;
+        height: fit-content;
+        border: darkblue;
+    }
+a {font-size: 400%;}
 ol {font-size: xx-large; color:darkorange;
     font-family: Georgia;
 }
