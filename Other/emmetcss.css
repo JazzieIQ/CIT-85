@@ -16,7 +16,6 @@
         height: fit-content;
         border: darkblue;
     }
-a {font-size: 400%;}
 ol {font-size: xx-large; color:darkorange;
     font-family: Georgia;
 }
@@ -33,9 +32,10 @@ ol {font-size: xx-large; color:darkorange;
     font-family: Helvetica;
     font-size: xx-large;}
 a {
+    font-size: 400%;
     text-decoration: none;
     font-weight: bold;
-}
+    }
 
 a:link {
     color: #00F;
