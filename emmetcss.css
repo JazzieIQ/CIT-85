@@ -1,4 +1,5 @@
-ol {font-size: xx-large; color: darkgreen;
+ol {font-size: xx-large; color:darkorange;
+    font-family: Georgia;
 }
 .li {font-family:serif;}
 .item1 {
@@ -6,7 +7,29 @@ ol {font-size: xx-large; color: darkgreen;
     font-style: italic;}
 .item2 { color: blueviolet;
     font-size: larger;}
+.item3 {color: aquamarine;}
+.item4 {color: #0F0;}
 .item7 {
     color: brown;
     font-family: Helvetica;
     font-size: xx-large;}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: #00F;
+}
+
+a:hover {
+    color: #F00;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: #0F0;
+}
