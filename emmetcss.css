@@ -1,3 +1,5 @@
+::first-letter {color: #F00;}
+::first-line {font-size: 400%;}
 ol {font-size: xx-large; color:darkorange;
     font-family: Georgia;
 }
