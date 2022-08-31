@@ -1,0 +1,7 @@
+div p {
+    font-size: xx-large;
+    color: blueviolet;}
+div>p {color: coral;} 
+div~p {font-family: 'Gill Sans MT';}
+div+p {font-variant: small-caps;}
+h1 {color:aqua;}
