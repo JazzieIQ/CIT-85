@@ -1,12 +1,12 @@
 ::first-letter {color: #F00;}
-::first-line {font-size: 400%;}
+::last-letter {font-size: 400%;}
 .intro {color: whitesmoke;height: fit-content; border: darkblue;}
-.numbered-list {
+.numbered-list:odd {
         color: orangered;
         height: fit-content;
         border: rgb(0, 139, 42);
                 }
-.links {
+.links:even {
         color: darkblue;
         height: fit-content;
         border: darkblue;
@@ -16,13 +16,10 @@
         height: fit-content;
         border: darkblue;
     }
-ol {font-size: xx-large; color:darkorange;
+ol:nth-child(even) {font-size: xx-large; color:darkorange;
     font-family: Georgia;
 }
-.li {font-family:serif;}
-.item1 {
-    color:darkblue;
-    font-style: italic;}
+.li:nth-child(2n+1) {font-family:serif;}
 .item2 { color: blueviolet;
     font-size: larger;}
 .item3 {color: aquamarine;}
