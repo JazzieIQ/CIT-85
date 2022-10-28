@@ -1,5 +1,5 @@
-#crate {display: flex;}
-#lemons {display: block;}
+#crate { display: flex;}
+#lemons {display: inline-flex;}
 #package {
     margin: 0 auto;
     width: 200px;
