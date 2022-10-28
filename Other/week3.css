@@ -1,12 +1,11 @@
-body {
-    background: rgb(48, 52, 52)
-}
-
-.container {
+#crate {display: flex;}
+#lemons {display: block;}
+#package {
     margin: 0 auto;
     width: 200px;
     position: relative;
     flex: auto;
+    display: inline-block;
 }
 
 .leaves {
