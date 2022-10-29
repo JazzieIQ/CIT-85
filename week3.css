@@ -1,3 +1,4 @@
+html {font-size: 24px;}
 #crate { display: flex;}
 #lemons {display: inline-flex;}
 #package {
@@ -67,3 +68,25 @@
     margin-left: 24px;
     border-radius: 19px;
 }
+#buttons {
+    display: block;
+    margin-top: 400px;
+    margin-left: 75px;
+    font-size: 2rem;
+}
+#button {
+    height: 50px;
+    width: 75px;
+    display: inline-block;
+}
+#spanner  {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
