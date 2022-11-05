@@ -1,6 +1,36 @@
 html {
     font-family:serif;
-    font-size: 24px
+    font-size: 24px;
+    font-style: italic;
+    font-variant-caps: normal;
     }
-    article {font-family: serif}
-    p {font-family: sans-serif;}
+h1 {    box-shadow: crimson;
+        text-shadow: 5px 5px crimson;
+    }
+article {
+        font-family: Fira Sans;
+        font-weight: 900;
+        font-size: 36px;
+    }
+p { 
+        font-family: sans-serif;
+        font-size: 1rem;}
+#non {
+    text-decoration-line: line-through;
+    }
+#lorem {
+        text-indent: 48px;
+        font-weight: normal;
+    }
+button {
+        font-weight: bold;
+        background-color: plum;
+        color:aquamarine;
+        font-size: 2rem;
+    }
+button:hover { background-color: aquamarine;}
+a {text-decoration: none;}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: aquamarine;}
