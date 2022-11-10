@@ -1,22 +1,19 @@
 html {font: size 24px;}
 body {margin: 0px;}
-.container#insideblue {
+section {margin: none;}
+#insideblue {
     background: royalblue;}
 .container#green {
-    margin: 0px 200px 200px;
+    margin: 0px 200px;
     margin-top: 0px;
-    display:inline-block;
-    display: flex;
     background: chartreuse;
 }
 #border {
-    margin: 0% 30%;
     display: flex;
-    content: contain;
+    justify-content: center;
 }
 #photo {
     display: center;
-    flex: auto;
     border: solid;
     border-width: 15px;
     border-color: gold;
@@ -27,3 +24,27 @@ h1 {font-size: 2rem;}
 h1.header1 {color: blue;}
 h1.header2 {color:red}
 p {line-break:2rem;}
+#block {
+    margin: none;
+    padding: none;
+    background-color:whitesmoke;
+    border-style: dashed;
+    border-color: cornflowerblue;
+}
+.card { 
+    margin: 15px;
+    background-color: #FFFFFF;
+    border: 5px solid;
+    border-style: dashed;
+    border-color: blueviolet;
+    justify-content: center;
+    display:flex;
+}
+.box { padding: 25px 50px;
+    justify-content: center;
+    display: block;
+}
+#red { background-color: red;}
+#blue { background: blue;}
+#yellow {background: yellow;}
+#green {background: green;}
