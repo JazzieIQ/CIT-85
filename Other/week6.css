@@ -1,0 +1,36 @@
+html {
+    font: size 24px;
+}
+
+body {
+    margin: 0px;
+}
+
+section {
+    margin: 2px;
+    padding: 0px;
+    border: 2px solid;
+    border-color: crimson;
+}
+#inline { display: flex;}
+.card1 {display: inline-flex;}
+
+#block {
+    display: flex;
+    justify-content: end;
+}
+
+.card2 {
+    display: inline-block;
+}
+.box {
+    text-align: center;
+    text-justify: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 25px 10px;
+    padding: 25px;
+    border: 3px solid;
+    display: block;
+    background: red;
+}
