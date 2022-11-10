@@ -1,6 +1,8 @@
 html {font: size 24px;}
 body {margin: 0px;}
-section {margin: none;}
+section {
+    margin: 0px;
+    padding: 0px;}
 #insideblue {
     background: royalblue;}
 .container#green {
@@ -26,23 +28,25 @@ h1.header2 {color:red}
 p {line-break:2rem;}
 #block {
     margin: none;
-    padding: none;
+    padding: 5%;
     background-color:whitesmoke;
     border-style: dashed;
     border-color: cornflowerblue;
 }
-.card { 
+#cards { 
     margin: 15px;
-    background-color: #FFFFFF;
-    border: 5px solid;
+    background-color: whitesmoke;
+    border: 3px solid;
     border-style: dashed;
-    border-color: blueviolet;
+    border-color: cornflowerblue;
     justify-content: center;
     display:flex;
 }
-.box { padding: 25px 50px;
-    justify-content: center;
-    display: block;
+.box { margin: 25px 5px;
+    padding: 25px 50px;
+    border: 2px solid;
+    border-radius: 5%;
+    display:block;
 }
 #red { background-color: red;}
 #blue { background: blue;}
