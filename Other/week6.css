@@ -34,3 +34,21 @@ section {
     display: block;
     background: red;
 }
+#flexbox1 {
+    margin: normal;
+    padding: normal;
+    display: inline-flex;
+}
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12, #b13, #b14, #b15, #b16, #b18, #b17 {
+    display: inline-block;
+    margin: 5px;
+    padding: 15px 130px;
+}
+
+#b19, #b20 {
+        display: inline-block;
+        margin: 5px;
+    }
+#b19 {padding: 15px 325px;}
+#b20 {padding: 15px 550px}
