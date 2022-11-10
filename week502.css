@@ -1,0 +1,19 @@
+html {font: size 24px;}
+body {margin: 0px;}
+#block {
+    background-color:bisque;
+    border-style: dashed;
+    border-width:3px;
+    border-color: cornflowerblue;
+}
+#cards { 
+    margin: 50px;
+    background-color: #FFFFFF;
+    border: 5px solid;
+    border-style: dashed;
+    border-color: blueviolet;}
+.box {display: inline-block;}
+#red { background: red;}
+#blue { background: blue;}
+#yellow {background: yellow;}
+#green {background: green;}
