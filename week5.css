@@ -1,13 +1,23 @@
 html {font: size 24px;}
 body {background:royalblue;}
-section {margin: 0;}
-#insideblue {margin: 0px 100px 100px;}
+section {margin-top: 0px;}
+#insideblue {margin: 0px 200px 200px;}
 #green {
+    display:inline-block;
     background: chartreuse;
 }
-#border {}
+#border {
+    margin: 0% 30%;
+    display: flex;
+    content: fit;
+}
 #photo {
-    background-position: center;
+    display: center;
+    flex: auto;
+    border: solid;
+    border-width: 15px;
+    border-color: gold;
+    border-radius: 50%;
 }
 h1 {font-size: 2rem;}
 h1.header1 {color: blue;}
