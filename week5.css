@@ -1,9 +1,15 @@
 html {font: size 24px;}
-body {background:cornflowerblue;}
+body {background:royalblue;}
 section {margin: 0;}
-#photo {}
 #insideblue {margin: 0px 100px 100px;}
 #green {
     background: chartreuse;
-    
 }
+#border {}
+#photo {
+    background-position: center;
+}
+h1 {font-size: 2rem;}
+h1.header1 {color: blue;}
+h1.header2 {color:red}
+p {line-break:2rem;}
