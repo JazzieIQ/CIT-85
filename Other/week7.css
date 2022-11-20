@@ -22,9 +22,42 @@ transition-delay: 250ms;}
     color: darkblue;
     transition-delay: 50ms;
 }
+
+#mediaquery2 {
+    background-color: beige;
+    flex: auto;
+    margin-left: 15px;
+    text-indent: 15px;}
+#boxes {
+    margin: 25px;
+    justify-content: center;
+    text-align: center;
+}
+.box {padding: 50px;}
+#box1 {background-color: crimson;}
+#box2 {background-color:aqua;}
+#box3 {background-color: limegreen;}
+#box4 {background-color: yellow;}
+#box5 {background-color: blueviolet;}
+@media and min-width  {
+    
+}
+
 @media screen and (min-width: 1200px) {
-    #border { background-color: darkblue;}
-    #heading { color: aquamarine;}
-    body {background-color: aliceblue;}
-    #mediaquery1 {background-color: blueviolet;}
+    #border {
+        background-color: darkblue;
+    }
+
+    #heading {
+        color: aquamarine;
+    }
+
+    body {
+        background-color: aliceblue;
+    }
+
+    #mediaquery1 {
+        background-color: blueviolet;
+    }
+    .box {display: auto;}
 }
