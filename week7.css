@@ -1,0 +1,30 @@
+html {
+    font-size: 24px;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#mediaquery1 {margin-top: 6rem;
+    margin: 100px 100px;
+    padding: 0 0 100px 0;
+    flex: auto;
+    background-color: cornflowerblue;
+    transition-delay: 750ms;
+}
+#border {
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+transition-delay: 250ms;}
+#heading { 
+    font-size: 3rem;
+    transition-delay: 500ms;
+    color: darkblue;
+    transition-delay: 50ms;
+}
+@media screen and (min-width: 1200px) {
+    #border { background-color: darkblue;}
+    #heading { color: aquamarine;}
+    body {background-color: aliceblue;}
+    #mediaquery1 {background-color: blueviolet;}
+}
