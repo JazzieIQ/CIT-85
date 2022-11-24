@@ -68,12 +68,6 @@ body {
     border-width: 3px;
     border-color:peachpuff
 }
-#blog {
-    display: flex;
-    border-style: solid;
-    border-width: 3px;
-    border-color: red}
-
         #blog {
             display: block;
             border-style: solid;
@@ -156,6 +150,12 @@ p {margin: 10px;}
         }
 }
 @media screen and (max-width:768px) {
+    #blog {
+            display: flex;
+            border-style: solid;
+            border-width: 3px;
+            border-color: red
+        }
     nav {
             justify-content: center;
             text-align: center;
@@ -164,13 +164,11 @@ p {margin: 10px;}
             inline-size: 100%;
             list-style-type: none;
         }
-    
     #boxednav {
             padding: 10px;
             display: block;
             margin: 10px;
         }
-    
     article {
             border-style: solid;
             border-top: none;
