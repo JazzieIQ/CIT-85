@@ -68,36 +68,36 @@ body {
     border-width: 3px;
     border-color:peachpuff
 }
-        #blog {
+#blog {
             display: block;
             border-style: solid;
             border-width: 3px;
             border-color: red
         }
-    
-        nav {
-            justify-content: center;
-            text-align: center;
-            display: inline;
-            contain: content;
-            inline-size: 100%;
-            list-style-type: none;
+#navcontainer {
+    justify-content: center;
+    text-align: center;}
+nav {
+        display: inline;
+        contain: content;
+        inline-size: 100%;
+        list-style-type: none;
         }
     
-        #boxednav {
-            padding: 10px;
-            display: inline-block;
-            margin: 10px;
+#boxednav {
+        padding: 10px;
+        display: inline-block;
+        margin: 10px;
         }
     
-        article {
-            border-style: solid;
-            border-top-width: 3px;
-            border-left: none;
-            border-right: none;
-            border-bottom: none;
-            border-color: red
-        }
+article {
+        border-style: solid;
+        border-top-width: 3px;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-color: red
+    }
 a {
     text-decoration: none;
 }
