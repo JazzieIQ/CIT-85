@@ -76,3 +76,53 @@ body {
     flex-shrink: 2;
     border: 3px solid rgba(0, 0, 0, 0.2);
 }
+
+#mediaquery2 {
+    background-color: beige;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 50px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: crimson;
+    contain: content;
+    display: inline-flexbox;
+}
+
+#boxer {
+    justify-content: center;
+    text-align: center;
+}
+
+.flex3 {
+    padding: 50px;
+    inline-size: 100%;
+    border: none;
+    margin: none;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: crimson;
+    inline-size: 100%;
+}
+
+#box2 {
+    background-color: aqua;
+    inline-size: 59.25%;
+}
+
+#box3 {
+    background-color: limegreen;
+    inline-size: 29.5%;
+}
+
+#box4 {
+    background-color: yellow;
+    inline-size: 44.3%;
+}
+
+#box5 {
+    background-color: blueviolet;
+    inline-size: 44.3%;
+}
