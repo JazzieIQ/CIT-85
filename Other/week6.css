@@ -6,7 +6,7 @@ body {
     margin: 0px;
 }
 
-section {
+#border, #flexbox1 {
     margin: 2px;
     padding: 0px;
     border: 2px solid;
@@ -52,3 +52,27 @@ section {
     }
 #b19 {padding: 15px 325px;}
 #b20 {padding: 15px 550px}
+#flexbox2 {padding-bottom: 100px;}
+#flexy {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+.flex {
+    justify-content: center;
+    text-align: center;
+    contain: content;
+    display: inline-flex;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 25px 200px;
+}
+#flex1, #flex3 {flex-grow: 1;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+}
+#flex2 {flex-grow: 2;
+    flex-shrink: 2;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+}
