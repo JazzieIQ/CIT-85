@@ -125,10 +125,9 @@ body {
     background-color: blueviolet;
     inline-size: 44.3%;
 }
-#blues {}
 #wall {
     justify-content: center;
-    margin: 20% 25%;
+    margin: 0% 20% 25% 25%;
     display: flex;
     contain: content;
 }
@@ -168,4 +167,35 @@ body {
 #hue4 {
     background-color: darkcyan;
     inline-size: 40%;
+}
+#blues2 {
+    padding-bottom: 50px;
+    color: white;
+}
+#wall2 {
+    display: flex;
+    justify-content: center;
+}
+
+#hues2 {
+    display: block;
+    border-width: 4px;
+    border-style: solid;
+    border-color: crimson;
+}
+.flex5 {
+    text-align:left;
+    vertical-align: top;
+    padding: 50px;
+}
+#hue1-1 {
+    background-color: darkblue;
+}
+
+#hue2-1 {
+    background-color:cornflowerblue;
+}
+
+#hue3-1 {
+    background-color:lightskyblue;
 }
