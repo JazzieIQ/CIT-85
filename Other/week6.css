@@ -5,7 +5,6 @@ html {
 body {
     margin: 0px;
 }
-
 #border, #flexbox1 {
     margin: 2px;
     padding: 0px;
@@ -125,4 +124,48 @@ body {
 #box5 {
     background-color: blueviolet;
     inline-size: 44.3%;
+}
+#blues {}
+#wall {
+    justify-content: center;
+    margin: 20% 25%;
+    display: flex;
+    contain: content;
+}
+#hues {
+    display: inline-block;
+    border-width: 4px;
+    border-style: solid;
+    border-color: crimson;
+    white-space: none;
+}
+.flex4 {
+    padding: 50px;
+    inline-size: 100%;
+    border-style: none;
+    border: none;
+    margin: none;
+    border-width: none;
+    white-space: none;
+    display: inline-block;
+}
+
+#hue1 {
+    background-color: blue;
+    inline-size: 30%;
+}
+
+#hue2 {
+    background-color: darkblue;
+    inline-size: 20%;
+}
+
+#hue3 {
+    background-color:cyan;
+    inline-size: 10%;
+}
+
+#hue4 {
+    background-color: darkcyan;
+    inline-size: 40%;
 }
