@@ -1,11 +1,31 @@
-body {background-position: fixed;
-background-repeat: no-repeat;
-background-size:cover;}
-nav {background-color: darkcyan;
-position: top;
-border: 0px;}
-ul{ display: block;
+html {
+    font-size: 24px;
+    }
+body {
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+nav {
+    background-color:cornflowerblue;
+    position: top;
+    border: 0px;
+    }
+ul  { 
+    display: inline;
     margin: 0px;
     list-style: none;
-}
-li {padding: 15px}
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    }
+li {
+    border-width: 4px;
+    border-color: white;
+    padding: 15px;
+    }
+a   { 
+    color:white;
+    text-decoration: none;
+    }
