@@ -1,3 +1,11 @@
 body {background-position: fixed;
 background-repeat: no-repeat;
 background-size:cover;}
+nav {background-color: darkcyan;
+position: top;
+border: 0px;}
+ul{ display: block;
+    margin: 0px;
+    list-style: none;
+}
+li {padding: 15px}
