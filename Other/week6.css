@@ -172,9 +172,10 @@ body {
     padding-bottom: 50px;
     color: white;
 }
-#wall2 {
-    display: flex;
+#wall2 { 
     justify-content: center;
+    display: flex;
+    position: center;
 }
 
 #hues2 {
@@ -182,20 +183,23 @@ body {
     border-width: 4px;
     border-style: solid;
     border-color: crimson;
+    padding: auto auto 150px auto;
 }
 .flex5 {
-    text-align:left;
+    text-align: left;
     vertical-align: top;
-    padding: 50px;
 }
 #hue1-1 {
     background-color: darkblue;
+    padding: 0px 100px 100px 0px;
 }
 
 #hue2-1 {
     background-color:cornflowerblue;
+    padding: 0px 300px 100px 0px;
 }
 
 #hue3-1 {
     background-color:lightskyblue;
+    padding: 0px 300px 100px 0px;
 }
