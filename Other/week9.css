@@ -1,0 +1,70 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        background-color: cornflowerblue;
+        position:absolute;
+        border: 0px;
+        text-align: right;
+        align-items: right;
+        align-content: right;
+        right: 0;
+        bottom: 0;
+    }
+
+    ul {
+        display: inline;
+        margin: 0px;
+        list-style: none;
+        padding: 0px;
+    }
+
+    li {
+        display: inline-block;
+        border-width: 4px;
+        border-color: white;
+        padding: 15px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    nav {
+        background-color: cornflowerblue;
+        position: top;
+        border: 0px;
+    }
+
+    ul {
+        display: inline;
+        margin: 0px;
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    li {
+        border-width: 4px;
+        border-color: white;
+        padding: 15px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
