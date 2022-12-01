@@ -8,6 +8,28 @@ body {
     background-size: cover;
 }
 
+.card {
+    display: inline-block;
+}
+
+#b2 {
+    position: relative;
+    display: flex;
+    right: 0;
+    left:750px;
+}
+.box {
+    text-align: center;
+    text-justify: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 25px 10px;
+    padding: 25px;
+    border: 3px solid;
+    display: block;
+    background: red;
+}
+
 @media screen and (min-width: 768px) {
     nav {
         background-color: cornflowerblue;
