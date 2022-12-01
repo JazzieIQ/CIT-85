@@ -11,9 +11,28 @@
   <body>
     <section class="border" id="order">
       <div class="container" id="centrifuge">
-        <div class="circle" id="circle">
-        </div>
+        <div class="circle" id="circle"></div>
       </div>
     </section>
+    <script>
+      let ball = document.getElementById("order");
+
+      var myVar = setInterval(spostaDiv, 90);
+      var margin = 0;
+
+      let l = window.screen.width;
+      let w = 1300;
+
+      function spostaDiv() {
+        console.log(w);
+        if (margin == w) {
+          margin = 0 + "px";
+        }
+        else {
+            ball.style.marginLeft = margin + "px";
+            margin += 10;
+        }
+      }
+    </script>
   </body>
 </html>
