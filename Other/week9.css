@@ -18,6 +18,13 @@ body {
     right: 0;
     left:750px;
 }
+#b4 {
+    background: chartreuse;
+    position: absolute;
+    display: flex;
+    top: 75px;
+    left: 733px;
+}
 .box {
     text-align: center;
     text-justify: center;
